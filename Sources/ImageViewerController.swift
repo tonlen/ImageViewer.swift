@@ -197,11 +197,13 @@ UIGestureRecognizerDelegate {
     
     @objc
     func didSingleTap(_ recognizer: UITapGestureRecognizer) {
-        
+        /*
         let currentNavAlpha = self.navBar?.alpha ?? 0.0
         UIView.animate(withDuration: 0.235) {
             self.navBar?.alpha = currentNavAlpha > 0.5 ? 0.0 : 1.0
         }
+        */
+        dismiss(animated: true)
     }
     
     @objc
