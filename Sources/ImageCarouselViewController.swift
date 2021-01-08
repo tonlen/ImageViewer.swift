@@ -129,6 +129,10 @@ class ImageCarouselViewController:UIPageViewController, ImageViewerTransitionVie
         }
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         
